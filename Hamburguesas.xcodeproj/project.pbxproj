@@ -12,6 +12,8 @@
 		DEABABE31BF1633C00A74F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEABABE11BF1633C00A74F73 /* Main.storyboard */; };
 		DEABABE51BF1633C00A74F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEABABE41BF1633C00A74F73 /* Assets.xcassets */; };
 		DEABABE81BF1633C00A74F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEABABE61BF1633C00A74F73 /* LaunchScreen.storyboard */; };
+		DEABABF01BF1637800A74F73 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEABABEF1BF1637800A74F73 /* Datos.swift */; };
+		DEB2C0901BF1869700DBDE55 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB2C08F1BF1869700DBDE55 /* Colores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DEABABE41BF1633C00A74F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEABABE71BF1633C00A74F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEABABE91BF1633C00A74F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEABABEF1BF1637800A74F73 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		DEB2C08F1BF1869700DBDE55 /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		DEABABDC1BF1633C00A74F73 /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				DEABABEF1BF1637800A74F73 /* Datos.swift */,
 				DEABABDD1BF1633C00A74F73 /* AppDelegate.swift */,
 				DEABABDF1BF1633C00A74F73 /* ViewController.swift */,
 				DEABABE11BF1633C00A74F73 /* Main.storyboard */,
+				DEB2C08F1BF1869700DBDE55 /* Colores.swift */,
 				DEABABE41BF1633C00A74F73 /* Assets.xcassets */,
 				DEABABE61BF1633C00A74F73 /* LaunchScreen.storyboard */,
 				DEABABE91BF1633C00A74F73 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				DEABABE01BF1633C00A74F73 /* ViewController.swift in Sources */,
 				DEABABDE1BF1633C00A74F73 /* AppDelegate.swift in Sources */,
+				DEABABF01BF1637800A74F73 /* Datos.swift in Sources */,
+				DEB2C0901BF1869700DBDE55 /* Colores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				DEABABEE1BF1633C00A74F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
